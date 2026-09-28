@@ -40,4 +40,34 @@ nav a {
       color: #333;
 }
    
-]
+
+
+.post {
+       width: 350px;
+      margin: 20px auto;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 12px;
+}
+.username {
+      font-weight: bold;
+      margin: 0 0 10px 0;
+}
+.photo {
+      background-color: #eee;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+      width: 100%;
+      object-fit: cover;
+}
+
+.caption {
+      margin: 10px 0 0 0;
+}
+
+button.liked {
+      background-color: #1370eb;
+}

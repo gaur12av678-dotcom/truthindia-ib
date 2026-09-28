@@ -16,6 +16,46 @@
                                       <button>login</button>
                                </nav>
                                                      
-Hello TruthIndia!
+<div class="post">
+      <p class="username">riyasaini32</p>
+      <img class="photo" src="https://picsum.photos/seed/one/350/300">
+      <button class="like" onclick="likePost(this)">❤ like</button>
+      <p class="caption">mera phlea post hai</p>
+      <div class="comments"></div>
+<input class="comment-input" type="text" placeholder="write comment">
+<button onclick="addComment(this)">post</button>
+</div>
+      
+      <div class="post">
+       <p class="username">rahul_india</p>
+      <img class="photo" src="https://picsum.photos/seed/two/350/300">
+    <button class="like" onclick="likePost(this)">❤ like</button>
+      <p class="caption">ye mera doosra post hai</p>
+      <div class="comments"></div>
+<input class="comment-input" type="text" placeholder="write comment">
+<button onclick="addComment(this)">post</button>
+</div>
+
+<div class="post">
+      <p class="username">priya_sharma</p>
+    <img class="photo" src="https://picsum.photos/seed/three/350/300">
+      <button class="like" onclick="likePost(this)">❤ like</button>
+      <p class="caption">ye teesra post hai</p>
+      <div class="comments"></div>
+<input class="comment-input" type="text" placeholder="write comment">
+<button onclick="addComment(this)">post</button>
+</div>
+
+    <script>
+function likePost(button) {
+      button.classList.toggle("liked");
+      if (button.classList.contains("liked")) {
+            button.textContent = "❤ liked";
+      } else {
+            button.textContent = "❤ like";
+      }
+}
+</script>  
+
 </body>
 </html>
